@@ -1,16 +1,63 @@
-# launchscreen_splashscreen_e_onboarding
 
-A new Flutter project.
+# Flutter Splash & Onboarding App
 
-## Getting Started
+Este projeto Flutter demonstra a implementação de uma **splash screen nativa**, uma **splash Flutter animada com `ScaleTransition`**, um **onboarding interativo com `PageView`**, e uma **página de boas-vindas** com redirecionamento para a tela **Home**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Como executar
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Clone o repositório**  
+   ```bash
+   git clone https://github.com/seu-usuario/flutter-splash-onboarding.git
+   cd flutter-splash-onboarding
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. **Instale as dependências**
+   ```bash
+   flutter pub get
+   ```
+
+---
+
+4. **Execute o app**
+   ```bash
+   flutter run
+   ```
+
+---
+
+## Estrutura de pastas
+
+```
+lib/
+├── main.dart
+├── screens/
+│   ├── splash/
+│   ├── onboarding/
+│   ├── welcome/
+│   └── home/
+├── widgets/
+```
+
+---
+
+## Funcionalidades
+
+- ✅ Splash screen **nativa** via `flutter_native_splash`
+- ✅ Splash Flutter com **animação de escala**
+- ✅ Onboarding com **PageView**, imagens locais e textos explicativos
+- ✅ Navegação até a **tela de boas-vindas**
+- ✅ Redirecionamento para a **Home**
+
+---
+
+
+## Dependências principais
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.3.5
+```
